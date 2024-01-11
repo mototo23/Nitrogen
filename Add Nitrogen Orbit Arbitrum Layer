@@ -1,0 +1,46 @@
+{
+  "chainInfo": {
+    "minL2BaseFee": 100000000,
+    "networkFeeReceiver": "0xa91BD12b93bCB91751d98bA70828d6F65551A05F",
+    "infrastructureFeeCollector": "0xa91BD12b93bCB91751d98bA70828d6F65551A05F",
+    "batchPoster": "0x62Ca281811F1f065f007e3e3842b8a7dBC8695Eb",
+    "staker": "0x2e7527C10282935813699001bb4d39495894735F",
+    "chainOwner": "0xa91BD12b93bCB91751d98bA70828d6F65551A05F",
+    "chainName": "Nitrogen",
+    "chainId": 96384675468,
+    "parentChainId": 421614,
+    "rpcUrl": "https://nitrogen-rpc.altlayer.io/",
+    "explorerUrl": "https://nitrogen-explorer.altlayer.io/",
+    "nativeToken": "0x0000000000000000000000000000000000000000"
+  },
+  "coreContracts": {
+    "rollup": "0x49Ca5F190467B396178357b1B70cF8Eb858666c2",
+    "inbox": "0x022f6Dd92478A8c9E6f061Bf83b2C78dBd0d2B42",
+    "outbox": "0x63FFe7a0d8553D11853894928B54fA976B662AC0",
+    "adminProxy": "0xF1BFA038Dbf137F2E5fCaD6B2e07B8320fcBD737",
+    "sequencerInbox": "0xAfD7D733822167CDa40659842080f8aBAdAce4f4",
+    "bridge": "0x887CfdD05dd93678F901823C7E0a7c072e5BaAD2",
+    "utils": "0xB11EB62DD2B352886A4530A9106fE427844D515f",
+    "validatorWalletCreator": "0xEb9885B6c0e117D339F47585cC06a2765AaE2E0b"
+  },
+  "tokenBridgeContracts": {
+    "l2Contracts": {
+      "customGateway": "0x84F1D2455864b4F9232Fa9D8F93f7736A95F5910",
+      "multicall": "0x838D6Cea46678E4E42D21B3E87EACAAf323fC585",
+      "proxyAdmin": "0x08695d132Ad5cD9e3f3C2f69E3cD41ab22246Bcf",
+      "router": "0x0b0E452E0c1673c5c1975f0843D6fE0C71812Bde",
+      "standardGateway": "0x499DF5d1780505537e66E196cCAd5C0C2EBE7E33",
+      "weth": "0x72a335bf03Cf315C291698d8410eD32E69b48C01",
+      "wethGateway": "0x90f1c389149B4517a9bD33CE7e13244348bA54a9"
+    },
+    "l3Contracts": {
+      "customGateway": "0x8dC58C44B26283712418f3cfcE3d73ab99Ddf23D",
+      "multicall": "0x95f590f1e1392e37737eD02785aC47dE93f43512",
+      "proxyAdmin": "0x8f972355F41Ca3ee82fBf327B10bCaf7ba27d840",
+      "router": "0x07d49Ed6d62bBDfE50607ddC278d022Ed2DFF1f8",
+      "standardGateway": "0x85f0d4C6BA6DA6825e72085d940b4222D683902B",
+      "weth": "0xd87d60f5565a1F213b69901C55f036B30B05C2F8",
+      "wethGateway": "0x7D128f4afc76911e1C922E5Aa2803f23b6E561de"
+    }
+  }
+}
